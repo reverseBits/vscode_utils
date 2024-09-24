@@ -6,16 +6,16 @@ VsCode utils that are useful for initial setup and also the guide on "How to use
 
 ```
  code <extension-id> --install-extension 
- ```
+```
 
-2. Ensure code Command is Available
-    -The script uses the code command to interact with VS Code. If the command is not recognized, you may need to add VS Code to your system’s environment variables.
+2. Ensure `code` Command is Available
+    - The script uses the code command to interact with VS Code. If the command is not recognized, you may need to add VS Code to your system’s environment variables.
 
-    -To verify or set this up:
-        -Open VS Code.
-        -Press Ctrl + Shift + P to open the Command Palette.
-        -Type Shell Command: Install 'code' command in PATH and select it.
-        -This will configure your environment to recognize the code command.
+    - To verify or set this up:
+        1. Open VS Code.
+        2. Press `Ctrl + Shift + P` to open the Command Palette.
+        3. Type Shell Command: Install `code` command in PATH and select it.
+        4. This will configure your environment to recognize the code command.
 
 3. To run the .sh file type 
 
@@ -41,7 +41,7 @@ bash vscode_installation_script.sh
 
     [Source](https://marketplace.visualstudio.com/items?itemName=Codeium.codeium)
     
-    NOTE:- Please Sign-in or Sign-up to use the codeium
+    NOTE:- Please Sign-in or Sign-up to use the codeium.
 
 3. ##### charliermarsh.ruff:
     An extension that integrates Ruff, a fast linter for Python. It helps identify and fix code style issues quickly.
