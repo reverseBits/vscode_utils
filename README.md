@@ -46,9 +46,20 @@ bash vscode_installation_script.sh
 3. ##### charliermarsh.ruff:
     An extension that integrates Ruff, a fast linter for Python. It helps identify and fix code style issues quickly.
     
-    Usage:- ctrl+s and it will format the code for you remove any unwanted spaces and also reformat the imports
+    Usage:- `ctrl+s` or `cmd+s`(on mac) and it will format the code for you remove any unwanted spaces and also reformat the imports.
 
-    Install the extension, you can aslo configure it in your settings, and Ruff will run automatically on your Python files to catch linting errors.
+    Install the extension, you can also configure it in your settings, and Ruff will run automatically on your Python files to catch linting errors.
+
+    Our team level common settings looks like this.
+    ```
+    "[python]": {
+        "editor.formatOnSave": false,
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+          }
+    }
+    ```
 
     [Source](https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff)
 
@@ -62,14 +73,14 @@ bash vscode_installation_script.sh
 5. ##### atommaterial.a-file-icon-vscode:
     This extension adds file icons to your project in the file explorer, helping to visually differentiate file types at a glance.
 
-    Usage:-Just install it, and it will automatically change your file icons based on file type.
+    Usage:- Just install it, and it will automatically change your file icons based on file type.
 
     [Source](https://marketplace.visualstudio.com/items?itemName=AtomMaterial.a-file-icon-vscode)
 
 6. ##### streetsidesoftware.code-spell-checker: 
     A spell checker for your code and text files. It helps catch spelling errors in comments, strings, and documentation.
 
-    Usage:-  Install and it will underline misspelled words. Configure the dictionary and ignore settings as needed.
+    Usage:- Install and it will underline misspelled words. Configure the dictionary and ignore settings as needed.
 
     [Source](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 
@@ -83,7 +94,7 @@ bash vscode_installation_script.sh
 8. ##### ms-azuretools.vscode-docker:
     Provides tools for building, managing, and deploying containerized applications with Docker.
 
-    Usage:-  Install Docker, then use the Docker view in the sidebar to manage images and containers.
+    Usage:- Install Docker, then use the Docker view in the sidebar to manage images and containers.
 
     [Source](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
 
@@ -104,7 +115,7 @@ bash vscode_installation_script.sh
 11. ##### Gruntfuggly.todo-tree:
     Scans your project for TODO comments and presents them in a tree view.
 
-    Usage:-  Install it, and it will automatically display a TODO tree in the sidebar. Configure your TODO patterns in settings.
+    Usage:- Install it, and it will automatically display a TODO tree in the sidebar. Configure your TODO patterns in settings.
 
     [Source](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
 
